@@ -61,6 +61,8 @@ export default {
             // window.sessionStorage.setItem('tokenStr', tokenStr);
             //跳转首页
             this.$router.replace('/home');
+            // let path = this.$route.query.redirect;
+            // this.$router.replace((path == '/' || path == undefined) ? '/home' : path);
           }
           //})
         } else {
